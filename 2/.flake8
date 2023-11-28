@@ -1,0 +1,9 @@
+[flake8]
+exclude =.git,__pycache__,env,venv
+ignore = B305, D100, D104, E203
+
+max-complexity = 9
+max-line-length = 120
+
+application-import-names = apps
+inline-quotes = "
